@@ -112,7 +112,7 @@ $querry[1] = 'hour' unless defined $querry[1];
 		},
 		
 		#netdata
-		$Lang::tr{'netdata server'} => {
+		"<a href=\'https:\/\/$ENV{'SERVER_ADDR'}:19222\' target=\"_blank\">$Lang::tr{'netdata server'}</a>" => {
 			"process" => "netdata",
 		},
 
